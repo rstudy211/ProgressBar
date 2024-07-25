@@ -88,7 +88,7 @@ function ProgressBar({ count, totalTask, completedTask, color }) {
           )}
           <span className=" text-slate-400 text-2xl p-0  -rotate-90">
             {parseInt(taskCompleted) >= parseInt(task) ? (
-              <p className="text-xl text-red-700">Done</p>
+              <p className="text-xl text-lime-800">Done</p>
             ) : (
               <p className="text-xl">Task</p>
             )}
